@@ -77,6 +77,13 @@ nav ul li a.active {
     border-color: #bbb;
 }
 
+.post-content {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    min-height: 200px;
+    color: #333; /* Ensures text is dark enough to see */
+}
+
 /* =========================================
    Mobile Responsiveness (Basic)
    ========================================= */
@@ -93,4 +100,5 @@ nav ul li a.active {
         flex-wrap: wrap; /* Allows wrapping on very small screens */
         justify-content: center;
     }
+
 }
