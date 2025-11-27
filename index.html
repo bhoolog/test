@@ -1,0 +1,64 @@
+---
+layout: default
+title: Home
+---
+
+<div class="page-home">
+
+    {% assign featured = site.posts.first %}
+    
+    <section class="hero">
+        <div class="container">
+            <div class="featured-article">
+                <div>
+                    <img src="{{ featured.image | default: '/assets/images/default.jpg' }}" 
+                         alt="{{ featured.title }}" 
+                         class="featured-image">
+                </div>
+                <div class="featured-content">
+                    <h2>{{ featured.title }}</h2>
+                    <p class="excerpt">{{ featured.excerpt | strip_html | truncatewords: 30 }}</p>
+                    <div class="meta">
+                        <span class="author">{{ featured.author }}</span>
+                        <span>•</span>
+                        <span>{{ featured.date | date: "%B %d, %Y" }}</span>
+                    </div>
+                    <a href="{{ featured.url | relative_url }}" class="read-more">Read Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <div class="category-pills">
+                <a href="#" class="category-pill">Space Science</a>
+                <a href="#" class="category-pill">Marine Biology</a>
+                <a href="#" class="category-pill">Climate Change</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-posts">
+        <div class="container">
+            <h2 class="section-title">Recent Articles</h2>
+            <div class="posts-grid">
+                
+                {% for post in site.posts offset:1 %}
+                <a href="{{ post.url | relative_url }}" class="post-card">
+                    <img src="{{ post.image | default: 'https://via.placeholder.com/400x250' }}" alt="{{ post.title }}" class="post-thumbnail">
+                    <div class="meta">
+                        <span class="author">{{ post.author }}</span>
+                        <span>•</span>
+                        <span>{{ post.date | date: "%b %d" }}</span>
+                    </div>
+                    <h3>{{ post.title }}</h3>
+                    <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                </a>
+                {% endfor %}
+
+            </div>
+        </div>
+    </section>
+
+</div>
