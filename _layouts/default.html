@@ -486,20 +486,26 @@
             }
         }
 
+        /* Page Toggle */
+        .page-home { display: block; }
+        .page-post { display: none; }
+        
+        body.show-post .page-home { display: none; }
+        body.show-post .page-post { display: block; }
     </style>
-            <!-- HOME PAGE -->
-    <div class="page-home">
+</head>  
+    <body>    <div class="page-home">
         <!-- Header -->
         <header>
             <div class="container">
                 <div class="header-content">
                     <a href="#" class="logo" onclick="showHome(); return false;">Bhoologam</a>
                     <nav>
-                       <ul>
+                        <ul>
                             <li><a href="{{ '/' | relative_url }}" 
                             class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
                             <li><a href="{{ '/about/' | relative_url }}" 
-                            class="{% if page.url contains '/about' %}active{% endif %}">About</a></li>
+                            class="{% if page.url contains '/about' %}active{% endif %}">>About</a></li>
                             <li><a href="#" 
                             class="{% if page.url contains '/posts' %}active{% endif %}">Posts</a></li>
                             <li><a href="#" 
@@ -509,11 +515,10 @@
                 </div>
             </div>
         </header>
-</head>
 
 {{ content }}
 
-<footer>
+        <footer>
     <div class="container">
          <div class="footer-content">
             <div class="footer-section">
@@ -549,10 +554,6 @@
              <p>&copy; 2025 Bhoologam team. All rights reserved. <br> Made with Passion for Science!</p>
          </div>
      </div>
-</footer>
-</body>
-
+        </footer>
+    </body>
 </html>
-
-
-
