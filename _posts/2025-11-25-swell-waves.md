@@ -8,8 +8,6 @@ permalink: /posts/swell-waves/
 image: "./assets/images/posts/swell-wave.png"
 ---
 
-# കേരളതീരത്തെ കള്ളക്കടൽ പ്രതിഭാസം
-
 ഏകദേശം 600 കിലോമീറ്റർ നീളത്തിൽ കടൽത്തീരമുള്ള കേരളത്തിൽ, കടലുമായി ബന്ധപ്പെട്ട ദുരന്തങ്ങളും നാശനഷ്ടങ്ങളും സുപരിചിതമാണ്. വർഷാവർഷം മഴക്കാലത്തോടനുബന്ധിച്ചുണ്ടാകുന്ന കടൽക്ഷോഭം, അതിന്റെ ഫലമായി വീടുകൾ തകരുന്നതും മത്സ്യത്തൊഴിലാളികൾ വീട് മാറിപ്പോകേണ്ടിവരുന്നതും പോലുള്ള ദുരിതങ്ങൾ നമുക്ക് പരിചയമുള്ളതാണ്. 2017-ൽ വീശിയടിച്ച ഓഖി പോലുള്ള ചുഴലിക്കാറ്റുകൾ ഉണ്ടാക്കിയ നാശനഷ്ടങ്ങളും ജീവഹാനികളും, 2004 ഡിസംബർ 26-നുണ്ടായ സുനാമി ജനിപ്പിച്ച ഭയപ്പെടുത്തുന്നതും വേദനിപ്പിക്കുന്നതുമായ ഓർമകളും അങ്ങനെ പലതും… 
 
 എന്നാൽ, ഈ ദുരന്തങ്ങളുടെ ഒരു പ്രത്യേകത, അവ ഏറിയോ കുറഞ്ഞോ ലോകത്തിന്റെ പല ഭാഗങ്ങളിലും ഇന്ത്യയുടെ മറ്റു തീരപ്രദേശങ്ങളിലും സംഭവിക്കാറുണ്ട് എന്നതാണ്. പക്ഷേ, മറ്റു സ്ഥലങ്ങളിൽ അധികം കേൾക്കാത്തതും നമ്മുടെ വാർത്താമാധ്യമങ്ങൾ വളരെ പ്രാധാന്യത്തോടെ റിപ്പോർട്ട് ചെയ്യുന്നതുമായ ഒരു പ്രതിഭാസമാണ് കേരളതീരത്തെ കള്ളക്കടൽ. കടലുമായി ബന്ധപ്പെട്ട ദുരന്തങ്ങളുടെ മുന്നറിയിപ്പുകളും മറ്റു സേവനങ്ങളും നൽകുന്ന ഹൈദരാബാദിലെ ഇൻകോയിസ് (INCOIS), കേരളതീരത്തെ കള്ളക്കടലിനെക്കുറിച്ച് പ്രത്യേക മുന്നറിയിപ്പ്ക്കുറിപ്പുകൾ ഇറക്കാറുണ്ട്. ഇതിൽ നിന്ന് തന്നെ അത് എത്രത്തോളം പ്രാധാന്യം അർഹിക്കുന്നത് ആണെന്ന് മനസ്സിലാക്കാമല്ലോ. 
@@ -73,6 +71,7 @@ Remya, P. G., Vishnu, S., Praveen Kumar, B., Balakrishnan Nair, T. M., & Rohith,
 Krishna, P. S., Tiju, V. I., Nair, L. S., & Ramesh, M. (2023). Coastal flooding by wave, wind, tide interactions and related processes along the southern part of SW coast of India. Regional Studies in Marine Science, 62, 102968.
 https://www.newindianexpress.com/cities/thiruvananthapuram/2012/Sep/04/sea-erosion-and-wave-of-panic-along-coastal-areas-402880.html >>>
 Gupta, G. V. M., Sudheesh, V., Sudharma, K. V., Saravanane, N., Dhanya, V., Dhanya, K. R., … & Naqvi, S. W. A. (2016). Evolution to decay of upwelling and associated biogeochemistry over the southeastern Arabian Sea shelf. Journal of Geophysical Research: Biogeosciences, 121(1), 159-175.`
+
 
 
 
