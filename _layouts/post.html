@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="page-post">
+    <article class="blog-post">
+        <div class="post-header">
+            <div class="container">
+                <h1 class="post-title">{{ page.title }}</h1>
+                <div class="post-meta">
+                    <div class="author-info">
+                        <div class="author-avatar"></div> <div>
+                            <div class="author">{{ page.author }}</div>
+                        </div>
+                    </div>
+                    <span>•</span>
+                    <span>{{ page.date | date: "%B %d, %Y" }}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="post-content">
+                {% if page.image %}
+                <img src="{{ page.image }}" alt="{{ page.title }}">
+                {% endif %}
+
+                {{ content }}
+                
+            </div>
+        </div>
+    </article>
+
+    </div>
