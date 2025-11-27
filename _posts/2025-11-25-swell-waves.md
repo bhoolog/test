@@ -3,8 +3,9 @@ layout: post
 title: "കേരളതീരത്തെ കള്ളക്കടൽ പ്രതിഭാസം"
 date: 2025-11-27 10:00:00 +0530
 author: "Dr. Anoop t. R."
-category: Oceanography / Coastal Processes
-image: "./assets/images/posts/swell-wave.png"
+categories: [Oceanography, Coastal Processes]  
+permalink: /posts/swell-waves/   <-- ADD THIS LINE
+image: "/assets/images/posts/swell-wave.png" <-- REMOVE THE DOT (.) AT THE START
 ---
 
 # കേരളതീരത്തെ കള്ളക്കടൽ പ്രതിഭാസം
@@ -72,6 +73,7 @@ Remya, P. G., Vishnu, S., Praveen Kumar, B., Balakrishnan Nair, T. M., & Rohith,
 Krishna, P. S., Tiju, V. I., Nair, L. S., & Ramesh, M. (2023). Coastal flooding by wave, wind, tide interactions and related processes along the southern part of SW coast of India. Regional Studies in Marine Science, 62, 102968.
 https://www.newindianexpress.com/cities/thiruvananthapuram/2012/Sep/04/sea-erosion-and-wave-of-panic-along-coastal-areas-402880.html >>>
 Gupta, G. V. M., Sudheesh, V., Sudharma, K. V., Saravanane, N., Dhanya, V., Dhanya, K. R., … & Naqvi, S. W. A. (2016). Evolution to decay of upwelling and associated biogeochemistry over the southeastern Arabian Sea shelf. Journal of Geophysical Research: Biogeosciences, 121(1), 159-175.`
+
 
 
 
