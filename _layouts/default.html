@@ -245,10 +245,32 @@
            -ms-hyphens: auto;
        }
 
-       /* Ensure headings remain left-aligned */
+       /* Global Rule: Headings Left Aligned */
        h1, h2, h3, h4, h5, h6 {
           text-align: left;
        }
+
+       /* --- SPECIFIC FIX FOR POST HEADER CENTERING --- */
+       
+       /* 1. Center the Post Title Container */
+       .post-header {
+           text-align: center;
+           max-width: 800px;
+           margin-left: auto;
+           margin-right: auto;
+       }
+
+       /* 2. Force the actual Title Text to Center (Overrides global H1 rule) */
+       h1.post-title {
+           text-align: center;
+       }
+
+       /* 3. Center the Author/Date Row */
+       .post-meta {
+           justify-content: center; /* This centers the flex items */
+       }
+
+       /* --------------------------------------------- */
 
        .post-content {
           max-width: 800px; 
