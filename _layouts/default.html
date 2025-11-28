@@ -231,27 +231,26 @@
             text-align: center; padding-top: 30px; margin-top: 30px;
             border-top: 1px solid var(--border-color); color: var(--secondary-color);
         }
+
       /* =========================================
-        6. TEXT JUSTIFICATION & TYPOGRAPHY
+        6. TEXT JUSTIFICATION (FIXED)
         ========================================= */
 
-       /* Justify all paragraphs in posts and excerpts */
-        p, .excerpt {
-            text-align: justify;
-            text-justify: inter-word; /* Improves spacing between words */
-            hyphens: auto;           /* Prevents big gaps on mobile by hyphenating long words */
-            -webkit-hyphens: auto;
-            -ms-hyphens: auto;
-        }
+       /* DESKTOP: Justify text for the newspaper look */
+       p, .excerpt {
+           text-align: justify;
+           text-justify: inter-word;
+           hyphens: auto; 
+           -webkit-hyphens: auto;
+           -ms-hyphens: auto;
+       }
 
-        /* Ensure headings remain left-aligned (Standard practice) */
+       /* Ensure headings remain left-aligned */
        h1, h2, h3, h4, h5, h6 {
           text-align: left;
        }
 
-       /* Specific fix for the Post Content readability */
        .post-content {
-       /* Optional: Limit width slightly for better reading experience on desktop */
           max-width: 800px; 
           margin-left: auto;
           margin-right: auto;
@@ -270,6 +269,11 @@
             
             .featured-content h1 { font-size: 32px; }
             .post-content { font-size: 18px; padding: 0 10px; }
+
+            /* SMART FIX: Turn OFF justification on mobile to stop big gaps */
+            p, .excerpt {
+                text-align: left; 
+            }
         }
         
         /* ENSURE VISIBILITY */
@@ -329,12 +333,10 @@
                 </div>
              </div>
              <div class="copyright">
-               <p>&copy; 2025 Bhoologam team. All rights reserved. <br> Made with Passion for Science!</p>
+                 <p>&copy; 2025 Bhoologam team. All rights reserved. <br> Made with Passion for Science!</p>
              </div>
          </div>
     </footer>
 
 </body>
 </html>
-
-
