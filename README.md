@@ -3,7 +3,7 @@
 A bilingual science blog exploring the wonders of our world in English and Malayalam.
 
 ## 🚀 Live Site
-Visit: [https://your-username.github.io/bhoologam](https://your-username.github.io/bhoologam)
+Visit: ([https://your-username.github.io/bhoologam](https://bhoolog.github.io/))
 
 ## 📝 Writing a New Blog Post
 
@@ -80,3 +80,4 @@ image: URL or path to thumbnail image
 ## 📄 License
 
 MIT License - Feel free to use and modify
+
